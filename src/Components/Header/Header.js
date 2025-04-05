@@ -4,13 +4,15 @@ export function createHeader() {
   const header = document.createElement('header')
   header.classList.add('header')
   header.innerHTML = `
-  <a href="#" class='logo'>VOLCANICA <span>STORE</span></a>
+  <a href="#" class='logo'><img src="../public/img/logo-volcanica-store.png"></a>
   <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+    <ul id="navbar">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html"><i class="bi bi-cart-fill"></i></a></li>
     </ul>
   </nav>
   `
