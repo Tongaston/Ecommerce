@@ -33,6 +33,7 @@ img,video, svg {
 body {
   min-height: 100dvh;
   width: 100%;
+  font-family: var(--body-font);
 }
 
 @media (prefers-reduced-motion: reduce) {
