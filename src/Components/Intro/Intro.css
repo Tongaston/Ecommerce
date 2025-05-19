@@ -1,0 +1,84 @@
+#intro {
+  position: relative;
+  height: calc(100vh - 95px); 
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 60%),
+              url('../../../public/img/imagen-fondo.png');
+  background-size: cover;
+  background-position: right center;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.contenido-texto {
+  max-width: 50%;
+  height: 90%;
+  max-height: 500px;
+  z-index: 1;
+}
+
+#intro h4 {
+  font-size: 1.5rem;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 400px;
+}
+
+#intro h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.img-intro {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+#intro p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: darkred;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-con-imagen {
+    flex-direction: column;
+    background: rgba(0,0,0,0.8); /* Fondo liso en móviles */
+    background-image: none;
+  }
+
+  .contenido-texto {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contenido-texto h1 {
+    font-size: 2.5rem;
+  }
+
+  .contenido-texto h2 {
+    font-size: 1.5rem;
+  }
+  .contenido-texto p {
+    font-size: 1rem;
+  }
+}
+
