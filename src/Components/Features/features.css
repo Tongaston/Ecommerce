@@ -1,0 +1,92 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background-color: rgb(46, 45, 45);
+  padding: 20px;
+}
+
+.features-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .features-container {
+    padding: 0 20px;
+  }
+  
+  .feature-item {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .feature-item {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+  
+  .features-image,
+  .features-image-black {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-container {
+    justify-content: center;
+    padding: 0 5px;
+  }
+  
+  .feature-item {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+}
+
+.feature-item {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.features-image,
+.features-image-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.features-image-black {
+  opacity: 0;
+}
+
+.feature-item:hover .features-image {
+  opacity: 0;
+}
+
+.feature-item:hover .features-image-black {
+  opacity: 1;
+}
+
+
+
