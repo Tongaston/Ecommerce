@@ -5,7 +5,12 @@ export function createHeader() {
   header.classList.add('header')
   header.innerHTML = `
   <a href="#" class='logo'><img src="../public/img/logo-volcanica-store.png"></a>
-  <nav>
+  <div class="menu-btn">
+    <div class="menu-btn__burger"></div>
+    <div class="menu-btn__burger"></div>
+    <div class="menu-btn__burger"></div>
+  </div>
+  <nav class="nav">
     <ul id="navbar">
       <li><a class="active" href="index.html">Inicio</a></li>
       <li><a href="shop.html">Tienda</a></li>
@@ -16,5 +21,15 @@ export function createHeader() {
     </ul>
   </nav>
   `
+
+  // Agregar funcionalidad al menú hamburguesa
+  const menuBtn = header.querySelector('.menu-btn')
+  const nav = header.querySelector('.nav')
+
+  menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('open')
+    nav.classList.toggle('open')
+  })
+
   return header
 }
