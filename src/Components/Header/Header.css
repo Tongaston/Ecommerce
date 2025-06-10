@@ -18,6 +18,17 @@
 /* Logo */
 .header .logo img {
   height: 40px;
+  min-width: 120px; /* Ancho mínimo para el logo */
+  width: auto; /* Mantiene la proporción de aspecto */
+  object-fit: contain; /* Asegura que la imagen se vea completa */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .header .logo img {
+    height: 35px; /* Tamaño ligeramente más pequeño en móviles */
+    min-width: 100px; /* Ancho mínimo reducido para móviles */
+  }
 }
 
 /* Navigation */
