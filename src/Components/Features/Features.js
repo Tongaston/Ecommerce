@@ -52,6 +52,8 @@ function initCarousel(container) {
   items.forEach((item) => {
     const clone = item.cloneNode(true)
     track.appendChild(clone)
+    track.appendChild(clone)
+    track.appendChild(clone)
   })
 
   let position = 0
