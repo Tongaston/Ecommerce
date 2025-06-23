@@ -19,6 +19,15 @@
   margin-left: 20px;
 }
 
+.contenido-texto h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.contenido-texto p {
+  opacity: 0.7;
+}
+
 .btn {
   background-color: #ff4d4d;
   text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
