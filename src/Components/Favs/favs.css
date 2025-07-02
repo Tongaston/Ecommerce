@@ -34,8 +34,8 @@
   border-radius: 8px;
   background-color:rgb(249, 243, 234);
   box-shadow: 5px 5px 10px rgba(244, 243, 243, 0.5);
-  cursor: pointer;
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .product:hover {
@@ -58,4 +58,51 @@ text-align: left;
   opacity: 0.7;
   font-size: 0.8rem;
 }
+
+.product-info h5 {
+  font-weight: bolder;
+  margin: 0;
+}
+
+.stars i {
+  color: rgb(243, 181, 25);
+}
+  
+.product-info h4 {
+  color: #b00101;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.cart {
+  font-size: 1.3rem;
+  color: white;
+  background-color: #b00101;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart:hover {
+  color: #b00101;
+  background-color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.cart:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+  
+
   

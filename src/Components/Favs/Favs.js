@@ -19,9 +19,9 @@ export function createFavs() {
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
             </div>
-            <h4>$249.99</h4>
+            <h4>$139.99</h4>
           </div>
-          <a href="#" class="bi bi-cart-fill"></a>
+          <a href="#" class="bi bi-cart-fill cart"></a>
         </div>
 
         <div class="product">
@@ -38,7 +38,7 @@ export function createFavs() {
             </div>
             <h4>$139.99</h4>
           </div>
-          <a href="#" class="bi bi-cart-fill"></a>
+          <a href="#" class="bi bi-cart-fill cart"></a>
         </div>
 
         <div class="product">
@@ -53,9 +53,9 @@ export function createFavs() {
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
             </div>
-            <h4>$249.99</h4>
+            <h4>$139.99</h4>
           </div>
-          <a href="#" class="bi bi-cart-fill"></a>
+          <a href="#" class="bi bi-cart-fill cart"></a>
         </div>
 
         <div class="product">
@@ -72,7 +72,7 @@ export function createFavs() {
             </div>
             <h4>$139.99</h4>
           </div>
-          <a href="#" class="bi bi-cart-fill"></a>
+          <a href="#" class="bi bi-cart-fill cart"></a>
         </div>
 
         <div class="product">
@@ -89,7 +89,7 @@ export function createFavs() {
             </div>
             <h4>$139.99</h4>
           </div>
-          <a href="#" class="bi bi-cart-fill"></a>
+          <a href="#" class="bi bi-cart-fill cart"></a>
         </div>
 
         <div class="product">
@@ -106,7 +106,7 @@ export function createFavs() {
             </div>
             <h4>$139.99</h4>
           </div>
-          <a href="#" class="bi bi-cart-fill"></a>
+          <a href="#" class="bi bi-cart-fill cart"></a>
         </div>
       </div>
   `
