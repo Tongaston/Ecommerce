@@ -1,7 +1,7 @@
 import './favs.css'
 
 export function createFavs() {
-  const favs = document.createElement('div')
+  const favs = document.createElement('section')
   favs.classList.add('favs-container')
   favs.innerHTML = `
     <h2>Top Birras</h2>
