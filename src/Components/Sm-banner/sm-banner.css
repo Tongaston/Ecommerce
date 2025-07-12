@@ -1,12 +1,24 @@
 .sm-banner {
-    padding: 2rem;
+    padding: 40px 80px; 
     background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .banner-box {
-    color: white;
-    text-align: center;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../public/promos/promo01.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 580px;
+  height: 50vh;
+  color: white;
+  padding: 2rem;
 }
 
 
