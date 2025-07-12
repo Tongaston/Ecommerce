@@ -6,12 +6,20 @@ export function createSmBanner() {
   smBanner.innerHTML = `
     <div class="banner-box">
     <div class="banner-info">
-    <img src="../public/promos/promo01.png" alt="promo-01">
-        <h4>Lo Último para Brindar</h4>
-        <h2>Del corazón del volcán directo a tu vaso.</h2>
-        <p>Probadas, aprobadas y adoradas.</p>
-        <button>Destapá el dato.</button>
-      </div>
+    <h4>¡Brindá con Volcanica!</h4>
+    <h2>Compra 1 y llevate otra GRATIS</h2>
+    <span>Ediciones frescas, listas para sorprender.</span>
+    <button>Conocer más.</button>
+    </div>
+    </div>
+
+    <div class="banner-box">
+    <div class="banner-info">
+    <h4>¡Brindá con Volcanica!</h4>
+    <h2>Compra 1 y llevate otra GRATIS</h2>
+    <span>Ediciones frescas, listas para sorprender.</span>
+    <button>Conocer más.</button>
+    </div>
     </div>
   `
   return smBanner
